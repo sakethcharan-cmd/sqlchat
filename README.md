@@ -52,9 +52,16 @@ You can ask the assistant the following types of questions:
 ```bash
 git clone <repository-url>
 
-#Navigate to project directory
+---
+
+
+## Navigate to project directory
 cd company-database-assistant
 
-#Run the project
+
+---
+
+##Run the project
 python assignment.py
 
+---
