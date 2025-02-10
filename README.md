@@ -46,22 +46,35 @@ You can ask the assistant the following types of questions:
 
 ---
 
-## Installation
+## Steps to Run the Project
 
-1. Clone the repository:
+Follow these steps to set up and run the **Company Database Chat Assistant**:
+
 ```bash
+# 1. Clone the Repository
 git clone <repository-url>
 
----
-
-
-## Navigate to project directory
+# 2. Navigate to the Project Directory
 cd company-database-assistant
 
+# 3. Ensure Python 3.x is Installed
+python --version
+# If not installed, download it from https://www.python.org/downloads/
 
----
+# 4. Install Dependencies (If Any)
+pip install -r requirements.txt
+# Skip this step if no requirements.txt exists
 
-##Run the project
-python assignment.py
+# 5. Run the Application
+python chat_assistant.py
 
----
+# 6. Interact with the Assistant by Asking Questions
+# Example queries:
+# - "Show me all employees in the Sales department"
+# - "Who is the manager of the Marketing department?"
+# - "List all employees hired after 2022-01-01"
+
+# 7. Exit the Assistant
+# Type:
+exit
+# Or press Ctrl+C
